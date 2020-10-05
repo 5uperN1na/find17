@@ -45,8 +45,8 @@ let numbers = [10, 15, 3, 7];
 let k = 17;
 
 function findSum() {
-    for (let i = 0; i < numbers.length; i++) {
-    // for (let i of numbers) {
+    // for (let i = 0; i < numbers.length; i++) {
+    for (let i in numbers) {
         console.log(numbers[i]);
         for (let j = numbers.length - 1; j >= 0; j--) {
             console.log(numbers[j]);
@@ -63,9 +63,48 @@ function findSum() {
 findSum();
 
 
+// let numbers = [10, 15, 3, 7];
+// let k = 17;
+
+// function findSum() {
+//     for (let i in numbers) {
+//         console.log(i)
+//     }
+//     console.log("======= break ======")
+//     for (let i of numbers) {
+//         console.log(i)
+//     }
+//     console.log("======= break ======")
+
+//     for (let i = 0; i < numbers.length; i++) {
+//         console.log(i)
+//     }
+// }
+// findSum();
 
 
 
+// let numbers = [10, 15, 3, 7];
+// let k = 17;
+
+// function findSum() {
+//     for (let i in numbers) {
+//         console.log(i)
+//         console.log(numbers[i])
+//     }
+//     console.log("======= break ======")
+//     for (let i of numbers) {
+//         console.log(i)
+//         console.log(numbers[i])
+//     }
+//     console.log("======= break ======")
+
+//     for (let i = 0; i < numbers.length; i++) {
+//         console.log(i)
+//         console.log(numbers[i])
+//     }
+// }
+// findSum();
 
 
 
